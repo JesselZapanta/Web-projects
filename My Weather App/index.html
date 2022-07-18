@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Sharp:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<body>
+    <div class="main-container">
+        <div class="dashboard">
+            <h1 class="logo"><span><i class="fa-solid fa-bolt"></i></span> Weather App</h1>
+        </div>
+        <div class="main-content">
+            <header>
+                <div class="date">
+                    <h2 class="time"></h2>
+                    <h3 class="current-date"></h3>
+                </div>
+                <div class="search">
+                    <input type="text" placeholder="Search" class="search-input" value="manila">
+                    <button><i class="fa-solid fa-magnifying-glass" id="search-btn"></i></button>
+                </div>
+            </header>
+            <div class="weather-overview"></div>
+        </div>
+        <div class="main"></div>
+    </div>
+    <script src="https://momentjs.com/downloads/moment.js"></script>
+    <script src="./script.js"></script>
+</body>
+</html>
