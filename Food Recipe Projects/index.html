@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>D'Fooddie</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">
+                <h1>D'<span>Fooddie</span></h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Menu</a></li>
+                <li><a href="#">Diet Center</a></li>
+                <li><a href="#">Partners</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </header>
+        <main>
+            <div class="main-container">
+                <div class="main-content">
+                    <h2>Let's Start Cooking With <br> <span>Popular Recipes</span></h2>
+                    <p>Want to learn but confused of how to start? No need to worry again!</p>
+                    <button class="main-btn"><a href="#meal-search">Seach for meals</a></button>
+                </div>
+                <div class="main-content-img">
+                    <div class="banner">
+                        <div class="img-container">
+                            <img src="./images/food1.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <section class="featured"></section>
+            <!--Meal By Search-->
+            <div class="meal-wrapper">
+                <div class="meal-search" id="meal-search">
+                    <h2>Find Meals For Your Ingredients</h2>
+                    <h4>"Good Food depends almost entirely on good ingredients"
+                    </h4>
+                    <div class="meal-search-box">
+                        <input type="text" class="search-control" placeholder="Enter your ingredients here" id="search-input" value="beef">
+                        <button type="submit" class="search-btn btn" id="search-btn"> <i class="fas fa-search"></i> </button>
+                    </div>
+                </div>
+                <div class="meal-result">
+                    <h2 class="title">Your search Recipe</h2>
+                    <div id="meal">
+                        <!-- meal item -->
+                        <!-- <div class="meal-item">
+                            <div class="meal-img">
+                                <img src="./images/food.jpg" alt="food">
+                            </div>
+                            <div class="meal-name">
+                                <h3>Potato Chips</h3>
+                                <a href="#" class="recipe-btn">Get Recipe</a>
+                            </div>
+                        </div> -->
+                    </div>
+                </div>
+                <div class="meal-details">
+                    <!-- close -->
+                    <button type="button" class="btn recipe-close-btn" id="recipe-close-btn">
+                        <i class="fa-solid fa-xmark"></i>
+                    </button>
+                    <!-- content -->
+                    <div class="meal-details-content">
+                        <!-- <h2 class="recipe-title">Meal name here</h2>
+                        <p class="recipe-category">Category here</p>
+                        <div class="recipe-instruct">
+                            <h3>Instructions</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur 
+                                adipisicing elit. Ipsam architecto consequuntur 
+                                nam iure magni dolor, itaque debitis! Recusandae suscipit 
+                                necessitatibus repellat temporibus eum, quae consectetur vitae 
+                                tempore, incidunt libero eaque? Dolor ducimus iusto porro nostrum eius 
+                                similique provident quaerat nisi odio sed blanditiis, est distinctio 
+                                tempora doloribus magni pariatur nam!
+                            </p>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur 
+                                adipisicing elit. Ipsam architecto consequuntur 
+                                nam iure magni dolor, itaque debitis! Recusandae suscipit 
+                                necessitatibus repellat temporibus eum, quae consectetur vitae 
+                                tempore, incidunt libero eaque? Dolor ducimus iusto porro nostrum eius 
+                                similique provident quaerat nisi odio sed blanditiis, est distinctio 
+                                tempora doloribus magni pariatur nam!
+                            </p>
+                        </div>
+                        <div class="recipe-meal-img">
+                            <img src="./images/food.jpg" alt="food">
+                        </div>
+                        <div class="recipe-link">
+                            <a href="#" target="_blank">Watch Video</a>
+                        </div> -->
+                    </div>
+            </div>
+        </main>
+        <footer>
+            <small>&copy 2022 <br> Made by Jessel</small>
+        </footer>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
